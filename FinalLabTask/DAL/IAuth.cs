@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Database;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public interface IAuth
+    public interface IAuth<X>
     {
-        bool Authenticate(string uname, string pass);
+        X Authenticate(string uname, string pass);
     }
 }

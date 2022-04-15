@@ -72,3 +72,6 @@ D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\FinalLabTask\Ad
 D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\FinalLabTask\Admin_Presentation_API\obj\Debug\Admin_Presentation_API.csproj.CopyComplete
 D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\FinalLabTask\Admin_Presentation_API\obj\Debug\Admin_Presentation_API.dll
 D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\FinalLabTask\Admin_Presentation_API\obj\Debug\Admin_Presentation_API.pdb
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\FinalLabTask\Admin_Presentation_API\bin\System.Web.Cors.dll
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\FinalLabTask\Admin_Presentation_API\bin\System.Web.Http.Cors.dll
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\FinalLabTask\Admin_Presentation_API\bin\System.Web.Http.Cors.xml

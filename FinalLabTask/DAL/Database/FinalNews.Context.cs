@@ -27,5 +27,7 @@ namespace DAL.Database
     
         public DbSet<Category> Categorys { get; set; }
         public DbSet<News> Newses { get; set; }
+        public DbSet<Token> Tokens { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

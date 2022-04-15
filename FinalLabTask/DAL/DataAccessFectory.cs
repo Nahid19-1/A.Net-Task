@@ -16,5 +16,19 @@ namespace DAL
         {
             return new AdminRepo(db);
         }
+
+        public static IRepository<User, int> UserDataAccess()
+        {
+            return new UserRepo(db);
+        }
+
+        public static IAuth<Token> AuthDataAccess()
+        {
+            return new AuthRepo(db);
+        }
+        public static IRepository<Token, string> TokenDataAccess()
+        {
+            return new AuthRepo(db);
+        }
     }
 }

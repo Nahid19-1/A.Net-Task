@@ -51,59 +51,64 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DataAccessFectory.cs" />
     <Compile Include="Database\Category.cs">
-      <DependentUpon>FNT.tt</DependentUpon>
+      <DependentUpon>FinalNews.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\FNT.Context.cs">
+    <Compile Include="Database\FinalNews.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FNT.Context.tt</DependentUpon>
+      <DependentUpon>FinalNews.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\FNT.cs">
+    <Compile Include="Database\FinalNews.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FNT.tt</DependentUpon>
+      <DependentUpon>FinalNews.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\FNT.Designer.cs">
+    <Compile Include="Database\FinalNews.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FNT.edmx</DependentUpon>
+      <DependentUpon>FinalNews.edmx</DependentUpon>
     </Compile>
     <Compile Include="Database\News.cs">
-      <DependentUpon>FNT.tt</DependentUpon>
+      <DependentUpon>FinalNews.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Token.cs">
+      <DependentUpon>FinalNews.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\User.cs">
+      <DependentUpon>FinalNews.tt</DependentUpon>
     </Compile>
     <Compile Include="IAuth.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repo\AdminRepo.cs" />
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <EntityDeploy Include="Database\FNT.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>FNT.Designer.cs</LastGenOutput>
-    </EntityDeploy>
+    <Compile Include="Repo\AuthRepo.cs" />
+    <Compile Include="Repo\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <None Include="Database\FNT.edmx.diagram">
-      <DependentUpon>FNT.edmx</DependentUpon>
+    <EntityDeploy Include="Database\FinalNews.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>FinalNews.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Database\FinalNews.edmx.diagram">
+      <DependentUpon>FinalNews.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database\FNT.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FNT.Context.cs</LastGenOutput>
-      <DependentUpon>FNT.edmx</DependentUpon>
-    </Content>
-    <Content Include="Database\FNT.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>FNT.edmx</DependentUpon>
-      <LastGenOutput>FNT.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Content Include="Database\FinalNews.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FinalNews.edmx</DependentUpon>
+      <LastGenOutput>FinalNews.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Database\FinalNews.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FinalNews.edmx</DependentUpon>
+      <LastGenOutput>FinalNews.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

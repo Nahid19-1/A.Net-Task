@@ -6,11 +6,14 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Admin_Presentation_API.Controllers
 {
+    [EnableCors("*", "*", "*")]
     public class AdminController : ApiController
     {
+        
         [Route("api/admin/{id}")]
         [HttpGet]
         public HttpResponseMessage Get(int id)
