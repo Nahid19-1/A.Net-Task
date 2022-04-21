@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<script>
+			var app = angular.module("myApp",[]);
+			
+			app.controller("hearCtrl",function($scope){
+				console.log($scope.uname);
+				$scope.test = "Test";
+			});
+			
+			app.controller("bodyCtrl",function($scope,$http){
+				$http.get("https://localhost:44334/api/student/").then(function(rsp){
+					debugger;
+					$scope.students = rsp.data;
+				}
+				,
+				function(err){
+				});
+				//$scope.test = "Test";
+				//$scope.names = ["Tanvir","Sabbir","Karim","Rahim"];
+			});
+		</script>
+	</head>
+	
+	<body ng-app="myApp">
+		<div id="header" ng-controller="hearCtrl">
+			<input type="text" ng-model="uname">
+			Name is  :  <span>{{uname}}</span> 
+
+		</div>
+		<div id="sidebar"></div>
+		<div id="body" ng-controller="bodyCtrl">
+			<p>{{test}}</p>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Id</th>
+				</tr>
+				<tr ng-repeat="s in students">
+					<td>{{s.Name}}</td>
+					<td>{{s.Id}}</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

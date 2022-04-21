@@ -1,0 +1,15 @@
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\bin\Debug\Presentation_Console.exe.config
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\bin\Debug\Presentation_Console.exe
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\bin\Debug\Presentation_Console.pdb
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\bin\Debug\BLL.dll
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\bin\Debug\DAL.dll
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\bin\Debug\EntityFramework.dll
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\bin\Debug\BLL.pdb
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\bin\Debug\DAL.pdb
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\bin\Debug\DAL.dll.config
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\bin\Debug\EntityFramework.xml
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\obj\Debug\Presentation_Console.csproj.SuggestedBindingRedirects.cache
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\obj\Debug\Presentation_Console.csproj.CoreCompileInputs.cache
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\obj\Debug\Presentation_Console.csproj.CopyComplete
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\obj\Debug\Presentation_Console.exe
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Final\Presentation_Console\obj\Debug\Presentation_Console.pdb

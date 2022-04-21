@@ -1,0 +1,25 @@
+﻿@model Task2_ProductsInfo_Dynamic_List.Models.Product
+
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_FirstPage.cshtml";
+}
+
+<h2>This is List Page</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Purched Time</th>
+    </tr>
+    @for (int i = 0; i < ViewBag.Names.Length; i++) //can not use ViewDate here because it does't contain anything like Length
+    {
+        <tr>
+            <td>@(i+1)</td>
+            <td>@ViewBag.Names[i]</td>
+            <td>@ViewBag.PDate</td>
+        </tr>
+    }
+
+</table>
+

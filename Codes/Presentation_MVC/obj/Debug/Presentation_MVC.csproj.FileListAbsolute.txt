@@ -1,0 +1,2 @@
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Presentation_MVC\obj\Debug\Presentation_MVC.csproj.AssemblyReference.cache
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\Presentation_MVC\obj\Debug\Presentation_MVC.csproj.CoreCompileInputs.cache

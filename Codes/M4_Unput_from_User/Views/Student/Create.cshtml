@@ -1,0 +1,27 @@
+﻿@model M4_Unput_from_User.Models.Student
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_loggedin.cshtml";
+}
+
+<!-- 
+  action= where the from will be submited 
+  method =  get(pass values by url) post 
+    
+-->
+@if(Model != null)
+    {
+        <h1>@Model.Name</h1>    
+    }
+<h2>Create</h2>
+<form action="/Student/Create" method="post">
+    <input type="text" name="Name" value="@Model.Name" placeholder="Name" class="form-control" />
+    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" }) <!--Kar janno error message,what error message,optional-->
+    <input type="text" name="Id" value="@Model.Id" placeholder="Id" class="form-control" />
+    @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+    <input type="text" name="Dob" value="@Model.Dob" placeholder="Date of Birth" class="form-control" />
+    @Html.ValidationMessageFor(model => model.Dob, "", new { @class = "text-danger" })
+    <input type="text" name="Email" value="@Model.Email" placeholder="Email" class="form-control" />
+    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+    <input type="submit" value="Submit" />
+</form>

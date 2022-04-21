@@ -1,0 +1,19 @@
+﻿@model M4_Unput_from_User.Models.Person
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_loggedin.cshtml";
+}
+
+<h2>Home</h2>
+<h3 class="label-info">This is the Home page</h3>
+<!--
+
+<h4>Name : @ViewBag.Name</h4>
+<h4>Id : @ViewBag.Id</h4>
+<h4>Dob : @ViewData["Dob"]</h4>
+
+-->
+<h4>Name : @Model.Name</h4>
+<h4>Id : @Model.Id</h4>
+<h4>Dob : @Model.Dob</h4>
+

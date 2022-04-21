@@ -1,0 +1,36 @@
+﻿@model List<product_task.Models.Database.productssc>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Add to Cart</th>
+        
+
+    </tr>
+    @foreach (var p in Model)
+    {
+        <tr>
+
+            <td>@p.Id</td>
+            <td>@p.Name</td>
+            <td>@p.Price</td>
+            <td>@p.Qty</td>
+            
+            <td><a href="/Products/AddToCart/@p.Id" class="btn btn-success">Add To Cart</a> </td>
+            
+
+        </tr>
+    }
+
+    <td valign="bottom" >
+        <a href="/Order/Index" class="btn btn-danger" >Check Out</a>
+    </td>
+</table>

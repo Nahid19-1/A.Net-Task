@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    <title>First Page</title>
+</head>
+<body>
+
+    <div>
+        <a href="/Product/Home" class="btn btn-success">Home</a> <a href="/Product/List" class="btn btn-danger">List</a>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+
+    <div align="center"> &copy; Adv .Net Sprint 2021-2022 Product Tasks</div>
+</body>
+</html>

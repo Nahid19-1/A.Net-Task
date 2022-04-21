@@ -1,0 +1,8 @@
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\LINQ\bin\Debug\LINQ.exe.config
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\LINQ\bin\Debug\LINQ.exe
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\LINQ\bin\Debug\LINQ.pdb
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\LINQ\obj\Debug\LINQ.csproj.SuggestedBindingRedirects.cache
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\LINQ\obj\Debug\LINQ.exe
+D:\Study\UN\Semister 10\ADVANCED PROGRAMMING WITH .NET [A]\Codes\LINQ\obj\Debug\LINQ.pdb

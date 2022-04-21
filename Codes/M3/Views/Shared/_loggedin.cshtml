@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    <title>Logged In</title>
+</head>
+<body>
+    <div>
+        <a href="/Person/Home" class="btn btn-success">Home</a> <a href="/Person/List" class="btn btn-danger">List</a>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <div align ="center"> &copy; Adv .Net Sprint 2021-2022</div>
+</body>
+</html>
